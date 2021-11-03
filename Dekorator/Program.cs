@@ -67,6 +67,19 @@ namespace ExerciseDecorator
             base.JustDoIt();
         }
     }
+    public class GolfEquipment : ExerciseEquipmentDecorator
+    {
+        public GolfEquipment(IExercise exercise) : base(exercise)
+        {
+            exercise.AddEquipment("flip flops");
+        }
+
+        public override void JustDoIt()
+        {
+            Console.WriteLine("I'm about to swim");
+            base.JustDoIt();
+        }
+    }
 
     class Program
     {
