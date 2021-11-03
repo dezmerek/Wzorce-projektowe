@@ -1,0 +1,34 @@
+﻿@model ICollection<Laboratoria.Models.Book>
+
+<h1>Lista Książek</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tytuł
+            </th>
+            <th>
+                Autor
+            </th>
+            <th>
+                Data Wydania
+            </th>
+        </tr>
+    </thead>
+</table>
+<tbody>
+    @foreach (var book in @Model)
+    {
+        <tr>
+            <td>
+                @book.Title
+            </td>
+            <td>
+                @book.Author
+            </td>
+            <td>
+                @book.PublicationYear
+            </td>
+        </tr>
+    }
+</tbody>
