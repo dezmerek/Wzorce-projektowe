@@ -1,0 +1,10 @@
+Instrukcje
+Proszę napisać aplikację, która tworzyć będzie obiekty zawierające alfabet i cyfry dla danego alfabetu.
+
+Obsługa 3 alfabetów: łaciny, cyrylicy i greki.
+
+W wyniku działania powinniśmy uzyskać:
+
+abcde I II III
+abcde I II III
+абвгд 1 2 3
