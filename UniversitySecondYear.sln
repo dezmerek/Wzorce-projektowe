@@ -7,27 +7,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bezpieczeństwo", "Bezpiecz
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wzorce projektowe", "Wzorce projektowe", "{5557A7DA-8E1E-4949-B0E2-EB272F4565D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budowniczy", "Budowniczy\Budowniczy.csproj", "{2F58FE48-C7BA-496D-8F8F-71AB79FE5EC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Budowniczy", "Budowniczy\Budowniczy.csproj", "{2F58FE48-C7BA-496D-8F8F-71AB79FE5EC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fabryka abstrakcyjna", "Fabryka abstrakcyjna\Fabryka abstrakcyjna.csproj", "{28A92544-DE14-49B6-B41E-5B309065BE7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fabryka abstrakcyjna", "Fabryka abstrakcyjna\Fabryka abstrakcyjna.csproj", "{28A92544-DE14-49B6-B41E-5B309065BE7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototyp", "Prototyp\Prototyp.csproj", "{D30E6DC2-C9A7-435A-BC1F-F6550C99358C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototyp", "Prototyp\Prototyp.csproj", "{D30E6DC2-C9A7-435A-BC1F-F6550C99358C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{BABE480E-F977-45A4-8D72-710DD0127AF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{BABE480E-F977-45A4-8D72-710DD0127AF0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programowanie ASP.NET", "Programowanie ASP.NET", "{549406B1-412A-4358-8034-96F713D14545}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dziennik elektroniczny", "Dziennik elektroniczny\Dziennik elektroniczny.csproj", "{DE31C001-4CBB-4DC8-94B7-4342D30C90F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dziennik elektroniczny", "Dziennik elektroniczny\Dziennik elektroniczny.csproj", "{DE31C001-4CBB-4DC8-94B7-4342D30C90F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratoria", "Laboratoria\Laboratoria.csproj", "{8D45355E-AC0B-4B2A-91EC-E6FAD7F77732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratoria", "Laboratoria\Laboratoria.csproj", "{8D45355E-AC0B-4B2A-91EC-E6FAD7F77732}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asci", "Asci\Asci.csproj", "{0B513D0E-7F6E-45EC-B568-242241149603}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asci", "Asci\Asci.csproj", "{0B513D0E-7F6E-45EC-B568-242241149603}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCode", "CaesarCode\CaesarCode.csproj", "{A7DF05EC-624D-4000-B487-7B767540948A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaesarCode", "CaesarCode\CaesarCode.csproj", "{A7DF05EC-624D-4000-B487-7B767540948A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CeasarCodeSimple", "CeasarCodeSimple\CeasarCodeSimple.csproj", "{4CC6CE91-51B7-4BA8-B746-43AC2154530C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CeasarCodeSimple", "CeasarCodeSimple\CeasarCodeSimple.csproj", "{4CC6CE91-51B7-4BA8-B746-43AC2154530C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hash", "Hash\Hash.csproj", "{13902B35-695F-48B9-9C92-97BE58C4E14A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hash", "Hash\Hash.csproj", "{13902B35-695F-48B9-9C92-97BE58C4E14A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dekorator", "Dekorator\Dekorator.csproj", "{7197EBF9-5B81-420B-B7DD-A9476C2EC31E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fasada", "Fasada\Fasada.csproj", "{761BB060-84DC-49CE-B83A-B3629C59C910}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{13902B35-695F-48B9-9C92-97BE58C4E14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13902B35-695F-48B9-9C92-97BE58C4E14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13902B35-695F-48B9-9C92-97BE58C4E14A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7197EBF9-5B81-420B-B7DD-A9476C2EC31E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7197EBF9-5B81-420B-B7DD-A9476C2EC31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7197EBF9-5B81-420B-B7DD-A9476C2EC31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7197EBF9-5B81-420B-B7DD-A9476C2EC31E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{761BB060-84DC-49CE-B83A-B3629C59C910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{761BB060-84DC-49CE-B83A-B3629C59C910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{761BB060-84DC-49CE-B83A-B3629C59C910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{761BB060-84DC-49CE-B83A-B3629C59C910}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +102,8 @@ Global
 		{A7DF05EC-624D-4000-B487-7B767540948A} = {E814B2D2-6991-401A-AE0B-F9C19D1C10F6}
 		{4CC6CE91-51B7-4BA8-B746-43AC2154530C} = {E814B2D2-6991-401A-AE0B-F9C19D1C10F6}
 		{13902B35-695F-48B9-9C92-97BE58C4E14A} = {E814B2D2-6991-401A-AE0B-F9C19D1C10F6}
+		{7197EBF9-5B81-420B-B7DD-A9476C2EC31E} = {5557A7DA-8E1E-4949-B0E2-EB272F4565D2}
+		{761BB060-84DC-49CE-B83A-B3629C59C910} = {5557A7DA-8E1E-4949-B0E2-EB272F4565D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A32C7AF2-843C-4C16-BE08-B60173E5433E}
