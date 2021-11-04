@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace ExerciseDecorator
@@ -67,16 +66,17 @@ namespace ExerciseDecorator
             base.JustDoIt();
         }
     }
+
     public class GolfEquipment : ExerciseEquipmentDecorator
     {
         public GolfEquipment(IExercise exercise) : base(exercise)
         {
-            exercise.AddEquipment("flip flops");
+            exercise.AddEquipment("balls");
+            exercise.AddEquipment("golf club");
         }
-
         public override void JustDoIt()
         {
-            Console.WriteLine("I'm about to swim");
+            Console.WriteLine("I'm about to play golf");
             base.JustDoIt();
         }
     }
@@ -85,8 +85,16 @@ namespace ExerciseDecorator
     {
         static void Main(string[] args)
         {
-            var runningAndSwimming = new SwimmingPoolEquipment(new RunningEquipment(new Exercise()));
+            var swimming = new SwimmingPoolEquipment(new Exercise());
+            swimming.JustDoIt();
+            Console.WriteLine();
+
+            var runningAndSwimming = new RunningEquipment(new SwimmingPoolEquipment(new Exercise()));
             runningAndSwimming.JustDoIt();
+            Console.WriteLine();
+
+            var swimmingAndGolf = new SwimmingPoolEquipment(new GolfEquipment(new Exercise()));
+            swimmingAndGolf.JustDoIt();
         }
     }
 
