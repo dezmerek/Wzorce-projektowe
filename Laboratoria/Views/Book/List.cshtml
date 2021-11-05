@@ -1,34 +1,39 @@
 ﻿@model ICollection<Laboratoria.Models.Book>
 
-<h1>Lista Książek</h1>
+<h1>Lista książek</h1>
 <table class="table">
     <thead>
         <tr>
             <th>
-                Tytuł
+                Tytuł:
             </th>
             <th>
-                Autor
+                Autor:
             </th>
             <th>
-                Data Wydania
+                Data publikacji:
             </th>
         </tr>
     </thead>
+    <tbody>
+        @foreach (var book in @Model)
+        {
+            <tr>
+                <td>
+                    @book.Title
+                </td>
+                <td>
+                    @book.Author
+                </td>
+                <td>
+                    @book.PublishingYear
+                </td>
+                <td>
+                    <a asp-controller="Book" asp-action="EditForm" asp-route-id="@book.Id">Edytuj</a>
+                    <a asp-controller="Book" asp-action="DeleteConfirm" asp-route-id="@book.Id">Usuń</a>
+                    <a asp-controller="Book" asp-action="Details" asp-route-id="@book.Id">Szczegóły</a>
+                </td>
+            </tr>
+        }
+    </tbody>
 </table>
-<tbody>
-    @foreach (var book in @Model)
-    {
-        <tr>
-            <td>
-                @book.Title
-            </td>
-            <td>
-                @book.Author
-            </td>
-            <td>
-                @book.PublicationYear
-            </td>
-        </tr>
-    }
-</tbody>

@@ -1,7 +1,8 @@
 ﻿@model Laboratoria.Models.Book
 
 <div class="container-fluid">
-    <form asp-action="Add" asp-controller="Book" method="post">
+    <form asp-action="Edit" asp-controller="Book" method="post">
+        <input asp-for="Id" />
         <div class="mb-3">
             <span asp-validation-for="Title"></span>
             <input class="form-control" asp-for="Title" />
